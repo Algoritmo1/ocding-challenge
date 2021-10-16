@@ -1,0 +1,97 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color:white;
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+.generale{
+  width:600px;
+  height:500px;
+  margin:auto;
+  border-radius: 2%;
+  background-color: #000000;
+  opacity: 0.6;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo{
+  width:170px;
+  height: 80px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 0,9%;
+}
+
+#Title{
+  color:#00ff00;
+  opacity: 0,9%;
+  text-align: center;
+}
+
+.del-nav{
+  height: 40px;
+  width: 100%;
+  opacity: 0,9%;
+  background-color:#00ff00;
+  text-align: center;
+}
+
+.button{
+  color: black;
+  opacity: 100%;
+  margin-top: 10px;
+}
+
+.del-nav :first-child{
+  margin-left: 70px;
+}
+
+.del-nav :last-child{
+  margin-right: 70px;
+}
+
+.second-button{
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+  opacity: 100%;
+}
+
+span, .checkbox{
+  display:inline-block;
+}
+
+ div > span{
+  font-weight: bold;
+}
+
+.livello-carica{
+    width: 150px;
+    height: 15px;
+    border-radius: 3%;
+    background-color: orange;
+    opacity: 100%;
+}
+
+.livello-carica1{
+    width: 280px;
+    height: 15px;
+    background-color: #00ff00;
+    opacity:0,9%;
+    border-radius: 3%;
+}
+
+.livello-carica2{
+    width: 60px;
+    height: 15px;
+    background-color: rgba(255, 0, 0, 1);
+    /* opacity:100%; */
+    border-radius:3%;
+}
